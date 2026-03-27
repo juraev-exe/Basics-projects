@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 c1f66e683b73dd36db1df6cf25d909bccc57e526 unknown <MSI-JA@MSI-JA.(none)> 1764657165 -0800	clone: from https://github.com/juraev-exe/Basics.git
+c1f66e683b73dd36db1df6cf25d909bccc57e526 07504edccb716a9606c1bddf475ce3f7724ddf5b JA <abubakrjuraevv@gmail.com> 1767204477 +0500	commit: feat: Initialize C++ project with a string reversal program and VS Code development environment setup.
+07504edccb716a9606c1bddf475ce3f7724ddf5b 100acb2c76f274da9a73ccae0ec021ebbdc5c4bf JA <abubakrjuraevv@gmail.com> 1767263849 +0500	commit: Implement feature X to enhance user experience and optimize performance
+100acb2c76f274da9a73ccae0ec021ebbdc5c4bf 33202c4d22b6635299dc97832e0fa045f566f78f Juraev.exe <abubakrjuraevv@gmail.com> 1767270443 +0500	commit: feat: Update main function to read an integer and print greeting message
+33202c4d22b6635299dc97832e0fa045f566f78f 09abbfef2f34fea4aef9eee55b0309484d7a22f1 Juraev.exe <abubakrjuraevv@gmail.com> 1767276834 +0500	commit: feat: Add initial C++ program to print "Hello, World!"
+09abbfef2f34fea4aef9eee55b0309484d7a22f1 d1a1baf8d68daf56a81a7e078c10b75c87253087 Juraev.exe <abubakrjuraevv@gmail.com> 1767286159 +0500	commit: feat: Remove unused files and configurations from the project
+d1a1baf8d68daf56a81a7e078c10b75c87253087 2d1cd041c3b2e0626aa0c25e171d28c30855b8f2 Juraev.exe <abubakrjuraevv@gmail.com> 1767287017 +0500	commit: feat: Add binary files for project build artifacts
+2d1cd041c3b2e0626aa0c25e171d28c30855b8f2 0b22601fffb391631eea235a55d947af69d5a5d8 Juraev.exe <abubakrjuraevv@gmail.com> 1767290070 +0500	commit: Solving Questions
+0b22601fffb391631eea235a55d947af69d5a5d8 fef3257cc1e9007bc40d61717e358dcd31c2f96c Juraev.exe <abubakrjuraevv@gmail.com> 1767328762 +0500	commit: Solved
+fef3257cc1e9007bc40d61717e358dcd31c2f96c dba6239a76a0acf940327d85afa2611bbef094c0 Juraev.exe <abubakrjuraevv@gmail.com> 1767492442 +0500	commit: Solved
+dba6239a76a0acf940327d85afa2611bbef094c0 dba6239a76a0acf940327d85afa2611bbef094c0 Juraev.exe <abubakrjuraevv@gmail.com> 1767848931 +0500	checkout: moving from main to main
+dba6239a76a0acf940327d85afa2611bbef094c0 f752739218234f89a15f2a7ae69cfd7f714edaef Juraev.exe <abubakrjuraevv@gmail.com> 1767931145 +0500	commit: Solving more Questions
+f752739218234f89a15f2a7ae69cfd7f714edaef 6e3c97330cf6667e09ca37218a2d81ed62f28864 Juraev.exe <abubakrjuraevv@gmail.com> 1767931324 +0500	commit: Update 466A.exe
+6e3c97330cf6667e09ca37218a2d81ed62f28864 f99da66db4fbf5eed842c41edca28ed38bcfecd9 Juraev.exe <abubakrjuraevv@gmail.com> 1768316800 +0500	commit: New Questions new life
+f99da66db4fbf5eed842c41edca28ed38bcfecd9 3da3d7613d3fbf7757f72fc80969316207eab594 Juraev.exe <abubakrjuraevv@gmail.com> 1768980166 +0500	commit: solving more
+3da3d7613d3fbf7757f72fc80969316207eab594 dbab03a9378d85405cee4f6687bd83eae3a8bb15 Juraev.exe <abubakrjuraevv@gmail.com> 1769606973 +0500	commit: Add YouTube downloader component and playlist downloader script
+dbab03a9378d85405cee4f6687bd83eae3a8bb15 df65b43e25c1ef7648047d1528cea0621d744066 Juraev.exe <abubakrjuraevv@gmail.com> 1769616885 +0500	commit: Refactor main function to simplify code and output "Hello World"
+df65b43e25c1ef7648047d1528cea0621d744066 9c48c5d1f8aec72ba01fde3b1fbb51ad36065d6a Juraev.exe <abubakrjuraevv@gmail.com> 1770010839 +0500	commit: Some changes
+9c48c5d1f8aec72ba01fde3b1fbb51ad36065d6a 541c09936545e3e49782a867801fe37a45ffab58 Juraev.exe <abubakrjuraevv@gmail.com> 1770515373 +0500	commit: feat: Add architecture documentation and a C++ program for string character counting.
+541c09936545e3e49782a867801fe37a45ffab58 dfaaaab1e24ffeb83ea4ae166e278ec3d02930c3 JA <abubakrjruaevv@gmail.com> 1771251474 +0500	commit: feat: Implement YouTube downloader with responsive design and quality selection
+dfaaaab1e24ffeb83ea4ae166e278ec3d02930c3 c3741397a3e271dc59ccd4662a83841df3687191 JA <abubakrjruaevv@gmail.com> 1771423689 +0500	commit: Add many contest solutions and build artifacts
+c3741397a3e271dc59ccd4662a83841df3687191 5d1b10eabb6c843d349ceeee0ad40a333d7e4178 Juraev.exe <abubakrjuraevv@gmail.com> 1772565548 +0500	commit: Updates
+5d1b10eabb6c843d349ceeee0ad40a333d7e4178 65724690e1509d6119705aa77b5c6587a4e163bd Juraev.exe <abubakrjuraevv@gmail.com> 1773604503 +0500	commit: Update
