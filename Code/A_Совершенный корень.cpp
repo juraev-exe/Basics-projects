@@ -10,7 +10,7 @@ int main() {
 
     while (t--) {
         int n;
-        cin >> n; 
+        cin >> n;  
 
         for (int i = 1; i <= n; i++) {
             cout << i << " ";
