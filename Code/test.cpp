@@ -1,13 +1,13 @@
-#include <iostream>
-#include <string>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    cin.get(); // pause at start
-    int a;
-    cin >> a;
-    cout << "Hello, World!" << endl;
-    cin.get(); // pause before exit
+    int n, product = 1;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        product *= (n % 10);
+        n /= 10;    
+    }
+    cout << product;
     return 0;
 }
