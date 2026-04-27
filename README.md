@@ -25,24 +25,8 @@ Requirements:
 - A C++ compiler (GCC/g++, Clang, or MSVC)
 - Recommended: a modern C++ toolchain (GCC >= 9, Clang >= 10)
 
-Compile and run a single solution (Linux / macOS):
-
-```bash
-cd Code
-g++ -std=c++17 -O2 -pipe Example.cpp -o Example
-./Example
-```
-
-On Windows (MinGW):
-
-```powershell
-cd Code
-g++ -std=c++17 -O2 -pipe Example.cpp -o Example.exe
-.\Example.exe
-```
 
 Tips:
-- Replace `Example.cpp` with the filename you want to compile.
 - If a solution requires additional files or libraries, check the top of the `.cpp` for comments explaining flags or inputs.
 
 ## Profiles & competitive accounts
@@ -63,39 +47,11 @@ You can find my practice and contest profiles here:
 3. Add a simple `Makefile` or `CMakeLists.txt` to automate compiling individual files or running a small test harness.
 4. Add a `LICENSE.md` if you want to adopt an open-source license (MIT suggested).
 
-Example `.gitignore` snippet:
-
-```
-# Build artifacts
-*.exe
-*.out
-*.o
-build/
-
-# VS Code
-.vscode/
-
-# OS files
-Thumbs.db
-.DS_Store
-```
 
 ## Contribution guidelines
 
 - If you add solutions, keep each file focused on one problem and name files clearly (problemname.cpp or contest_problem.cpp).
 - Add a short comment header in each solution with: problem name/source, brief approach, and compile instructions if non-standard.
-
-## Where to find things
-
-- See `Code/` for most practice solutions.
-- See `leetcode/` for LeetCode examples.
-
----
-This README was cleaned to remove duplicates and merge markers. If you want additional reformatting, CI, or a `Makefile`, tell me which to add next.
-
-- See `Code/` for most practice solutions.
-- See `leetcode/` for LeetCode examples.
-
 
 ## Profiles & Competitive Accounts
 
@@ -107,9 +63,6 @@ You can find my practice and contest profiles here:
 - ACMP: https://acmp.ru/index.asp?main=user&id=514230
 - LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
 - Codeforces: https://codeforces.com/profile/AbubakrJ
-<<<<<<< HEAD
 
 
-I changed it in my github; this file now matches your provided content.
-=======
->>>>>>> 7ed14abb3ab9539cc5c1a98820e1bd53662e2383
+
