@@ -38,6 +38,16 @@ Requirements:
 Tips:
 - If a solution requires additional files or libraries, check the top of the `.cpp` for comments explaining flags or inputs.
 
+## Animated preview
+
+Here's a small animated preview for the repository. If your viewer supports SVG animation these will play inline; otherwise they show as static images.
+
+<p align="center">
+	<img src="assets/animations/anim-spinner.svg" width="80" alt="spinner" />
+	<img src="assets/animations/anim-pulse.svg" width="80" alt="pulse" />
+	<img src="assets/animations/anim-dots.svg" width="140" alt="dots" />
+</p>
+
 ## Profiles & competitive accounts
 
 You can find my practice and contest profiles here:
