@@ -1,40 +1,93 @@
-# C++ Solutions Repository
+# Basics Projects — C++ Solutions Collection
 
-This repository contains a collection of C++ source files, primarily serving as solutions to various programming challenges and exercises. The files are organized by their problem names or descriptive titles, making it easy to navigate and find specific solutions.
+This repository is a curated collection of C++ solutions for programming problems (Codeforces, LeetCode, and other practice tasks). It is organized to make it easy to find, build, and run individual problem solutions for learning and interview preparation.
 
-## Purpose
+Key points:
+- Primary language: C++ (standalone `.cpp` solution files)
+- Main source folders: `Code/` (practice problems), `leetcode/` (LeetCode solutions)
 
-The main purpose of this repository is to:
-*   Store and organize solutions to programming problems.
-*   Serve as a practice ground for C++ development.
-*   Provide examples of how to approach common algorithmic problems.
+## Goals
 
-## File Organization
+- Collect and document solved problems for future reference
+- Provide reproducible build/run instructions for each solution
+- Improve repository hygiene (ignore build artifacts, add CI and tests when appropriate)
 
-The C++ source files (`.cpp`) are located in the `Code` directory. Each file generally corresponds to a specific problem or example.
+## Repository Layout
 
-## Compiling and Running Code
+- `Code/` — main set of problem solutions (many single-file `.cpp` programs)
+- `leetcode/` — solutions for LeetCode problems
+- `acmp/` — reserved for ACMP problems (currently empty)
+- `.vscode/` — editor configuration and tasks
 
-To compile and run the C++ solutions, you will need a C++ compiler (such as g++ or clang).
+## Quickstart — build & run
 
-1.  **Navigate** to the `Code` directory in your terminal.
-2.  **Compile** a specific file using your C++ compiler. For example, to compile `hello_world.cpp`:
-    ```bash
-    g++ hello_world.cpp -o hello_world
-    ```
-    *(Note: Replace `g++` with your preferred compiler and adjust flags as needed.)*
-3.  **Run** the compiled executable:
-    ```bash
-    ./hello_world
-    ```
-    *(On Windows, you might run `hello_world.exe`)*
+Requirements:
+- A C++ compiler (GCC/g++, Clang, or MSVC)
+- Recommended: a modern C++ toolchain (GCC >= 9, Clang >= 10)
 
-Some files may require specific compilation flags or may be part of larger projects not fully represented by a single `.cpp` file.
+Compile and run a single solution (Linux / macOS):
 
-## Contributing
+```bash
+cd Code
+g++ -std=c++17 -O2 -pipe Example.cpp -o Example
+./Example
+```
 
-Contributions are welcome! If you have a solution to a problem not yet included, or an improvement to an existing one, please feel free to submit a pull request.
+On Windows (MinGW):
 
-## License
+```powershell
+cd Code
+g++ -std=c++17 -O2 -pipe Example.cpp -o Example.exe
+.\Example.exe
+```
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. (Please create a LICENSE.md file if you wish to formally adopt a license).
+Tips:
+- Replace `Example.cpp` with the filename you want to compile.
+- If a solution requires additional files or libraries, check the top of the `.cpp` for comments explaining flags or inputs.
+
+## Recommended repository improvements (short-term)
+
+1. Add a `.gitignore` to exclude build artifacts and editor files (e.g., `*.exe`, `*.o`, `/build/`, `.vscode/`).
+2. Remove tracked binaries from Git and commit the `.gitignore` (use `git rm --cached` for existing executables).
+3. Add a simple `Makefile` or `CMakeLists.txt` to automate compiling individual files or running a small test harness.
+4. Add a `LICENSE.md` if you want to adopt an open-source license (MIT suggested).
+
+Example `.gitignore` snippet:
+
+```
+# Build artifacts
+*.exe
+*.out
+*.o
+build/
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+```
+
+## Suggested next steps (medium-term)
+
+- Add a lightweight test harness using GoogleTest or Catch2 and include one or two sample tests (useful for verifying helper functions).
+- Add a CI workflow (GitHub Actions) that builds changed `.cpp` files and runs tests.
+- Normalize coding style (optional): add a `clang-format` config and run it on the repository.
+
+## Contribution guidelines
+
+- If you add solutions, keep each file focused on one problem and name files clearly (problemname.cpp or contest_problem.cpp).
+- Add a short comment header in each solution with: problem name/source, brief approach, and compile instructions if non-standard.
+
+## Where to find things
+
+- See `Code/` for most practice solutions.
+- See `leetcode/` for LeetCode examples.
+
+## Contact / Questions
+
+Open an issue or submit a pull request with suggested improvements or organization changes.
+
+---
+Generated with guidance from repository analysis and project-skills; I can also add a `Makefile`, `.gitignore`, or CI workflow next — tell me which one to scaffold first.
