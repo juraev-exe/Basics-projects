@@ -91,3 +91,14 @@ Open an issue or submit a pull request with suggested improvements or organizati
 
 ---
 Generated with guidance from repository analysis and project-skills; I can also add a `Makefile`, `.gitignore`, or CI workflow next — tell me which one to scaffold first.
+
+## Profiles & Competitive Accounts
+
+You can find my practice and contest profiles here:
+
+- Codingame: https://www.codingame.com/profile/508f92a578c56116163a564681cff9c08816333
+- CodeCombat: https://codecombat.com/user/juraevexe
+- CodeCrafters: https://app.codecrafters.io/users/juraev-exe
+- ACMP: https://acmp.ru/index.asp?main=user&id=514230
+- LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
+- Codeforces: https://codeforces.com/profile/AbubakrJ
