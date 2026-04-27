@@ -45,6 +45,17 @@ Tips:
 - Replace `Example.cpp` with the filename you want to compile.
 - If a solution requires additional files or libraries, check the top of the `.cpp` for comments explaining flags or inputs.
 
+
+## Profiles & Competitive Accounts
+
+You can find my practice and contest profiles here:
+
+- Codingame: https://www.codingame.com/profile/508f92a578c56116163a564681cff9c08816333
+- CodeCombat: https://codecombat.com/user/juraevexe
+- CodeCrafters: https://app.codecrafters.io/users/juraev-exe
+- ACMP: https://acmp.ru/index.asp?main=user&id=514230
+- LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
+- Codeforces: https://codeforces.com/profile/AbubakrJ
 ## Recommended repository improvements (short-term)
 
 1. Add a `.gitignore` to exclude build artifacts and editor files (e.g., `*.exe`, `*.o`, `/build/`, `.vscode/`).
@@ -52,7 +63,6 @@ Tips:
 3. Add a simple `Makefile` or `CMakeLists.txt` to automate compiling individual files or running a small test harness.
 4. Add a `LICENSE.md` if you want to adopt an open-source license (MIT suggested).
 
-Example `.gitignore` snippet:
 
 ```
 # Build artifacts
@@ -69,11 +79,6 @@ Thumbs.db
 .DS_Store
 ```
 
-## Suggested next steps (medium-term)
-
-- Add a lightweight test harness using GoogleTest or Catch2 and include one or two sample tests (useful for verifying helper functions).
-- Add a CI workflow (GitHub Actions) that builds changed `.cpp` files and runs tests.
-- Normalize coding style (optional): add a `clang-format` config and run it on the repository.
 
 ## Contribution guidelines
 
@@ -85,12 +90,6 @@ Thumbs.db
 - See `Code/` for most practice solutions.
 - See `leetcode/` for LeetCode examples.
 
-## Contact / Questions
-
-Open an issue or submit a pull request with suggested improvements or organization changes.
-
----
-Generated with guidance from repository analysis and project-skills; I can also add a `Makefile`, `.gitignore`, or CI workflow next — tell me which one to scaffold first.
 
 ## Profiles & Competitive Accounts
 
