@@ -1,11 +1,20 @@
-# Basics Projects — C++ Solutions Collection
+# C++ Solutions Collection
 
 This repository is a curated collection of C++ solutions for programming problems (Codeforces, LeetCode, and other practice tasks). It is organized to make it easy to find, build, and run individual problem solutions for learning and interview preparation.
 
 Key points:
 - Primary language: C++ (standalone `.cpp` solution files)
 - Main source folders: `Code/` (practice problems), `leetcode/` (LeetCode solutions)
+## Profiles & Competitive Accounts
 
+You can find my practice and contest profiles here:
+
+- Codingame: https://www.codingame.com/profile/508f92a578c56116163a564681cff9c08816333
+- CodeCombat: https://codecombat.com/user/juraevexe
+- CodeCrafters: https://app.codecrafters.io/users/juraev-exe
+- ACMP: https://acmp.ru/index.asp?main=user&id=514230
+- LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
+- Codeforces: https://codeforces.com/profile/AbubakrJ
 ## Goals
 
 - Collect and document solved problems for future reference
@@ -53,16 +62,7 @@ You can find my practice and contest profiles here:
 - If you add solutions, keep each file focused on one problem and name files clearly (problemname.cpp or contest_problem.cpp).
 - Add a short comment header in each solution with: problem name/source, brief approach, and compile instructions if non-standard.
 
-## Profiles & Competitive Accounts
 
-You can find my practice and contest profiles here:
-
-- Codingame: https://www.codingame.com/profile/508f92a578c56116163a564681cff9c08816333
-- CodeCombat: https://codecombat.com/user/juraevexe
-- CodeCrafters: https://app.codecrafters.io/users/juraev-exe
-- ACMP: https://acmp.ru/index.asp?main=user&id=514230
-- LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
-- Codeforces: https://codeforces.com/profile/AbubakrJ
 
 
 
