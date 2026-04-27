@@ -70,7 +70,10 @@ You can find my practice and contest profiles here:
 - ACMP: https://acmp.ru/index.asp?main=user&id=514230
 - LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
 - Codeforces: https://codeforces.com/profile/AbubakrJ
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7ed14abb3ab9539cc5c1a98820e1bd53662e2383
 ## Recommended repository improvements (short-term)
 
 1. Add a `.gitignore` to exclude build artifacts and editor files (e.g., `*.exe`, `*.o`, `/build/`, `.vscode/`).
@@ -116,6 +119,9 @@ You can find my practice and contest profiles here:
 - ACMP: https://acmp.ru/index.asp?main=user&id=514230
 - LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
 - Codeforces: https://codeforces.com/profile/AbubakrJ
+<<<<<<< HEAD
 
 
 I changed it in my github; this file now matches your provided content.
+=======
+>>>>>>> 7ed14abb3ab9539cc5c1a98820e1bd53662e2383
