@@ -4,17 +4,8 @@ This repository is a curated collection of C++ solutions for programming problem
 
 Key points:
 - Primary language: C++ (standalone `.cpp` solution files)
-- Main source folders: `Code/` (practice problems), `leetcode/` (LeetCode solutions)
-## Profiles & Competitive Accounts
+- Main source folders: `Competitive-Programming/` (contest problems), `leetcode/` (LeetCode solutions), `Learning/` (concepts and algorithms)
 
-You can find my practice and contest profiles here:
-
-- Codingame: https://www.codingame.com/profile/508f92a578c56116163a564681cff9c08816333
-- CodeCombat: https://codecombat.com/user/juraevexe
-- CodeCrafters: https://app.codecrafters.io/users/juraev-exe
-- ACMP: https://acmp.ru/index.asp?main=user&id=514230
-- LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
-- Codeforces: https://codeforces.com/profile/AbubakrJ
 ## Goals
 
 - Collect and document solved problems for future reference
@@ -23,10 +14,9 @@ You can find my practice and contest profiles here:
 
 ## Repository layout
 
-- `Code/` — main set of problem solutions (many single-file `.cpp` programs)
-- `leetcode/` — solutions for LeetCode problems
-- `acmp/` — reserved for ACMP problems (currently empty)
-- `.vscode/` — editor configuration and tasks
+- `Competitive-Programming/` — contest solutions organized by platform (Codeforces, ACMP, Other)
+- `leetcode/` — LeetCode solutions by difficulty (Easy, Medium, Hard)
+- `Learning/` — educational code (Basic-Concepts, Algorithms, Data-Structures)
 
 ## Quickstart — build & run
 
@@ -59,20 +49,8 @@ You can find my practice and contest profiles here:
 - LeetCode: https://leetcode.com/u/abubAkrJuraev2004/
 - Codeforces: https://codeforces.com/profile/AbubakrJ
 
-## Recommended repository improvements (short-term)
-
-1. Add a `.gitignore` to exclude build artifacts and editor files (e.g., `*.exe`, `*.o`, `/build/`, `.vscode/`).
-2. Remove tracked binaries from Git and commit the `.gitignore` (use `git rm --cached` for existing executables).
-3. Add a simple `Makefile` or `CMakeLists.txt` to automate compiling individual files or running a small test harness.
-4. Add a `LICENSE.md` if you want to adopt an open-source license (MIT suggested).
-
-
 ## Contribution guidelines
 
-- If you add solutions, keep each file focused on one problem and name files clearly (problemname.cpp or contest_problem.cpp).
+- Keep each file focused on one problem and name files clearly (`problemname.cpp` or `contest_problem.cpp`).
 - Add a short comment header in each solution with: problem name/source, brief approach, and compile instructions if non-standard.
-
-
-
-
 
