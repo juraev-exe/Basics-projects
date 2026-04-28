@@ -9,7 +9,7 @@
 #include <algorithm>
 #include <set>
 #include <map>
-#define ll long long
+using ll = long long;
 using namespace std;
 int main()
 {

@@ -1,3 +1,4 @@
+// Codeforces 1760A - Medium Number | Sort three, pick middle
 #include <iostream>
 #include <algorithm>
 using namespace std;

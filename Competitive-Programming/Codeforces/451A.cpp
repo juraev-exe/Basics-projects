@@ -1,3 +1,4 @@
+// Codeforces 451A - Game With Sticks | Game theory, min dimension parity
 #include <iostream>
 using namespace std;
 int main(){

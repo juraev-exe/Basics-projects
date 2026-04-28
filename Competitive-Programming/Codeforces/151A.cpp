@@ -1,3 +1,4 @@
+// Codeforces 151A - Soft Drinking | Greedy, min of resources
 #include <iostream>
 using namespace std;
 
