@@ -1,0 +1,14 @@
+{
+    "C_Cpp.default.compilerPath": "g++.exe",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cLanguageStandard": "c17",
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true
+    },
+    "files.exclude": {
+        "**/*.exe": false,
+        "**/*.o": true
+    }
+}
