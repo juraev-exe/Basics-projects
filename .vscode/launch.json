@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C++: Debug (gdb)",
+            "name": "C++: Build & Debug Active File (Integrated Terminal)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -10,7 +10,8 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
+            "console": "integratedTerminal",
             "MIMode": "gdb",
             "miDebuggerPath": "gdb.exe",
             "setupCommands": [
@@ -20,8 +21,29 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C++: Build and Debug",
-            "stopAtEntry": false
+            "preLaunchTask": "C++: Build and Debug"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "console": "integratedTerminal",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C++: Build and Debug"
         }
     ]
 }
