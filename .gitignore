@@ -1,0 +1,11 @@
+# Compiled programs and build output
+*.exe
+*.out
+build/
+dist/
+
+# IDE and operating-system files
+.idea/
+.vscode/*.code-workspace
+.DS_Store
+Thumbs.db

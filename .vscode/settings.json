@@ -1,5 +1,5 @@
 {
-    "C_Cpp.default.compilerPath": "g++.exe",
+    "C_Cpp.default.compilerPath": "C:\\Users\\JA\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20260616-ucrt-x86_64\\bin\\x86_64-w64-mingw32-g++.exe",
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.cLanguageStandard": "c17",
     "C_Cpp.clang_format_fallbackStyle": "LLVM",
