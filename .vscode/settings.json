@@ -2,8 +2,26 @@
     "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.cStandard": "c17",
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.activeIconPack": "angular-studio",
+    "window.titleBarStyle": "custom",
+    "editor.fontSize": 20,
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "editor.background": "#0b1020",
+        "sideBar.background": "#111827CC",
+        "sideBar.border": "#1f2937",
+        "activityBar.background": "#111827CC",
+        "activityBar.border": "#374151",
+        "panel.background": "#111827CC",
+        "panel.border": "#374151",
+        "titleBar.activeBackground": "#111827CC",
+        "titleBar.activeForeground": "#E5E7EB",
+        "statusBar.background": "#111827CC",
+        "statusBar.foreground": "#E5E7EB",
+        "scrollbarSlider.background": "#8B5CF640",
+        "list.hoverBackground": "#1F293780",
+        "list.activeSelectionBackground": "#3B82F680",
+        "list.inactiveSelectionBackground": "#1F293780"
+    },
     "files.exclude": {
         "**/*.exe": false,
         "**/*.o": true

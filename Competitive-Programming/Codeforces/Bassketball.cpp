@@ -1,21 +1,26 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int a1,a2,a3,a4;
-    int b1,b2,b3,b4;
-    cin>>a1>>a3>>b1>>b3;
-    cin>>a2>>a4>>b2>>b4;
-    if (a1+b1+a3+b3>a2+a4+b2+b4){
-        cout<<"1";
+    int a1, a2, a3, a4;
+    int b1, b2, b3, b4;
+
+    if (!(cin >> a1 >> a2 >> a3 >> a4 >> b1 >> b2 >> b3 >> b4)) {
+        return 0;
     }
-    else if (a1+b1+a3+b3<a2+a4+b2+b4){
-        cout<<"2";
-    }
-    else {
-        cout<<"DRAW";
+
+    int scoreA = a1 + a2 + a3 + a4;
+    int scoreB = b1 + b2 + b3 + b4;
+
+    if (scoreA > scoreB) {
+        cout << 1 << '\n';
+    } else if (scoreA < scoreB) {
+        cout << 2 << '\n';
+    } else {
+        cout << "DRAW\n";
     }
 
     return 0;

@@ -11,9 +11,9 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",
                 "&&",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${workspaceFolder}",
@@ -43,7 +43,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${workspaceFolder}",
@@ -63,7 +63,7 @@
         {
             "label": "C++: Run (no rebuild)",
             "type": "shell",
-            "command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "command": "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",
             "group": "test",
             "presentation": {
                 "echo": true,
