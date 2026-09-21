@@ -1,11 +1,11 @@
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 int main() {
     int a;
     cin >> a;
-    cout << 42 << endl;
+    cout << " ";
+    cout << " The next number for the number "<<a<<" is "<< a+1 << "." << endl;
     system("pause");
     return 0;
 }
