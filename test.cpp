@@ -2,10 +2,13 @@
 using namespace std;
 
 int main() {
-    int a;
-    cin >> a;
-    cout << " ";
-    cout << " The next number for the number "<<a<<" is "<< a+1 << "." << endl;
+
+    int a,b;
+    cout << "Enter the length of side 1: ";
+    cin >> a ;
+    cout << "Enter the length of side 2: ";
+    cin >> b ;
+    cout << "The perimetr is " << a*b << endl;
     system("pause");
     return 0;
 }

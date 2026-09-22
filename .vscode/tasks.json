@@ -61,6 +61,33 @@
             }
         },
         {
+            "label": "C++: Build test.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++17",
+                "-g",
+                "${workspaceFolder}\\test.cpp",
+                "-o",
+                "${workspaceFolder}\\build\\test.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "C:\\msys64\\ucrt64\\bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": "$gcc",
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
             "label": "C++: Run (no rebuild)",
             "type": "shell",
             "command": "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",

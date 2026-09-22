@@ -19,12 +19,41 @@
     "workbench.startupEditor": "none",
     "terminal.integrated.fontSize": 14,
     "workbench.colorCustomizations": {
-        "icon.foreground": "#000000",
-        "editor.background": "#0b102000",
-        "sideBar.background": "#11182700",
-        "panel.background": "#11182700",
-        "titleBar.activeBackground": "#11182700",
-        "terminal.background": "#11182700"
+        "icon.foreground": "#D4D4D4",
+        "editor.background": "#1E1E1E",
+        "editor.foreground": "#D4D4D4",
+        "sideBar.background": "#181818",
+        "panel.background": "#181818",
+        "titleBar.activeBackground": "#181818",
+        "terminal.background": "#1E1E1E"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["comment", "punctuation.definition.comment"],
+                "settings": {"foreground": "#6A9955"}
+            },
+            {
+                "scope": ["keyword", "storage.type", "storage.modifier"],
+                "settings": {"foreground": "#569CD6"}
+            },
+            {
+                "scope": ["entity.name.function", "support.function"],
+                "settings": {"foreground": "#DCDCAA"}
+            },
+            {
+                "scope": ["entity.name.type", "support.type", "storage.type.class"],
+                "settings": {"foreground": "#4EC9B0"}
+            },
+            {
+                "scope": ["string", "constant.other"],
+                "settings": {"foreground": "#CE9178"}
+            },
+            {
+                "scope": ["constant.numeric"],
+                "settings": {"foreground": "#B5CEA8"}
+            }
+        ]
     },
     "files.exclude": {
         "**/*.exe": false,
