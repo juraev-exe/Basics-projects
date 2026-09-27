@@ -20,12 +20,12 @@
     "terminal.integrated.fontSize": 14,
     "workbench.colorCustomizations": {
         "icon.foreground": "#D4D4D4",
-        "editor.background": "#1E1E1E",
+        "editor.background": "#1E1E1E99",
         "editor.foreground": "#D4D4D4",
-        "sideBar.background": "#181818",
-        "panel.background": "#181818",
-        "titleBar.activeBackground": "#181818",
-        "terminal.background": "#1E1E1E"
+        "sideBar.background": "#18181899",
+        "panel.background": "#18181899",
+        "titleBar.activeBackground": "#18181899",
+        "terminal.background": "#1E1E1E99"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
