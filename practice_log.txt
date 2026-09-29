@@ -1,0 +1,7 @@
+Codeforces Practice Log
+======================
+Date | Problem | Status
+Sep 29 2026 | B. Binary Search | created
+Sep 29 2026 | 4A - Арбуз | created
+Sep 29 2026 | 282A - Bit++ | created
+Sep 29 2026 | 231A - Команда | created
