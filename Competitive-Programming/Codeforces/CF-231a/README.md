@@ -6,8 +6,10 @@
 
 ## Status
 - [ ] Not attempted
-- [ ] Idea found
+- [x] Idea found
 - [ ] Accepted
 
 ## Notes
-- Write key observations, edge cases, and the final approach here.
+- Count the friends who are confident for each problem. The team solves it when
+  that count is at least two.
+- Time complexity: O(n). Space complexity: O(1).
