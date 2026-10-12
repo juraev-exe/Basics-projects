@@ -4,7 +4,7 @@
     "C_Cpp.default.cStandard": "c17",
     "window.titleBarStyle": "custom",
     "window.commandCenter": false,
-    "workbench.iconTheme": "vs-minimal",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "Default",
     "explorer.compactFolders": false,
     "editor.fontSize": 20,
