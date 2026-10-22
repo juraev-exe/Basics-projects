@@ -1,0 +1,16 @@
+problem:
+  arg:
+    contest: "4"
+    problem: a
+    class: contest
+    group: ""
+  inputStream: stdin
+  memoryLimit: 64 megabytes
+  name: A. Watermelon
+  outputStream: stdout
+  test:
+    input:
+    - tests\0.in
+    output:
+    - tests\0.out
+  timeLimit: 1 second
